@@ -1,0 +1,36 @@
+ &CONTROL
+    pseudo_dir = '.'
+    calculation = 'scf'
+    tprnfor = .true.
+    tstress = .true.
+ /
+
+ &SYSTEM
+    ibrav = 0
+
+    nat = 2
+    ntyp = 1
+    ecutwfc = 40.0
+    ecutrho = 400.0
+ /
+
+ &ELECTRONS
+scf_must_converge = .true.
+ /
+
+
+
+ATOMIC_SPECIES
+ C 12.0107  C.pbe-n-rrkjus_psl.1.0.0.UPF
+
+CELL_PARAMETERS (angstrom)
+   2.522557697   0.000000000  -0.000000000
+   1.261278849   2.184599048  -0.000000000
+   1.261278849   0.728199683   2.060840365
+
+ATOMIC_POSITIONS (crystal)
+C     0.749972224         0.749972284         0.750083327
+C     0.500027776         0.500027716         0.499916703
+
+K_POINTS automatic
+  5 5 5 1 1 1

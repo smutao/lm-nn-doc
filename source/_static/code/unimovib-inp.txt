@@ -1,0 +1,10 @@
+a test job
+
+ $contrl
+   qcprog="orca"
+   ifsave=.true.
+ $end
+
+ $qcdata
+   fchk="h2o.hess"
+ $end

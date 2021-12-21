@@ -1,0 +1,47 @@
+IPRINT 2 
+!
+!  Task keyword specifies type of calculation
+task          : phonon
+PHONON_METHOD : FINITEDISPLACEMENT
+
+
+!
+! Treat the system as an insulator
+!
+fix_occupancy : true
+!
+! Tune for speed rather than memory conservation.  
+!
+opt_strategy  : speed
+!
+! Don't write unnecessary wavefunction files
+!
+num_dump_cycles : 0
+!
+! Choose exchange-correlation functional
+!
+xc_functional  : PBE
+! 
+! Give plane-wave cutoff. Also allowed keywords (COARSE,MEDIUM,FINE,PRECISE)
+!
+BASIS_PRECISION : FINE
+!
+! Choose size of FFT grid. 2.0 is fully converged. 1.75 is good enough for LDA
+!
+grid_scale 2.0
+!
+! Choose which SCF solver to use ("none" for allbands, "dm" for Density Mixing)
+!
+elec_method    : dm
+mixing_scheme  : Pulay
+mix_charge_amp : 0.6
+!
+! Convergence tolerance criterion - energy per atom.
+!
+elec_energy_tol : 1.0e-9 eV
+!
+! Turn on calculation of stress (off by default)
+!
+calculate_stress : true
+
+phonon_sum_rule : true

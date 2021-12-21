@@ -1,0 +1,25 @@
+      PREC = Accurate
+
+       GGA = MK
+  LUSE_VDW = .TRUE.
+     PARM1 = 0.1234
+     PARM2 = 0.711357
+     Zab_vdW  = -1.8867
+     AGGAC = 0.000
+     LASPH = .TRUE.
+
+    IBRION = 1
+       NSW = 3000
+    NELMIN = 5
+      ISIF = 3
+     ENCUT = 1000.000000
+     EDIFF = 1.000000e-08
+    EDIFFG = -1.000000e-08
+    ISMEAR = 0
+     SIGMA = 0.1
+     IALGO = 38
+     LREAL = .FALSE.
+   ADDGRID = .TRUE.
+     LWAVE = .FALSE.
+    LCHARG = .FALSE.
+      NPAR = 4

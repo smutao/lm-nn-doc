@@ -1,0 +1,166 @@
+! whether to do kpoints or not
+! without kpoints it will be significantly faster,
+! but some crossings in the band structure will be missing
+@SET WITH_KP yes
+
+! set the following to yes to do a cell optimization instead of energy/force calculation
+! do NOT enable this when using this input file as template for phonopy!
+@SET DO_CELLOPT no
+
+&GLOBAL
+@IF $DO_CELLOPT == yes
+   PROJECT solid-cellopt
+   RUN_TYPE CELL_OPT
+@ENDIF
+@IF $DO_CELLOPT == no
+   PROJECT na2reh9-phonopy
+   RUN_TYPE ENERGY_FORCE
+@ENDIF
+   PRINT_LEVEL MEDIUM
+&END GLOBAL
+
+&FORCE_EVAL
+   METHOD Quickstep
+   &DFT
+      BASIS_SET_FILE_NAME BASIS_MOLOPT  
+      POTENTIAL_FILE_NAME POTENTIAL
+
+      &QS
+         EPS_DEFAULT 1e-10
+
+         ! We are using GAPW instead of the default GPW to prevent numerical
+         ! noise due to the finite grid size in the integration schemes in CP2K
+         ! together with the small displacements used to determine the forces.
+         ! Alternatively one could increase the CUTOFF to >5000 (depends on basis set)
+         ! to ensure that the higher exponents in the basis sets are well represented on the grid.
+      &END QS
+
+      &POISSON
+         PERIODIC XYZ
+         PSOLVER PERIODIC
+      &END POISSON
+
+      &SCF
+         EPS_SCF 1e-07
+         MAX_SCF 80
+         &DIAGONALIZATION
+            ALGORITHM STANDARD 
+         &END DIAGONALIZATION
+         &MIXING #How to mix old and new density matrices
+           METHOD BROYDEN_MIXING #PULAY_MIXING is also a good alternative
+           ALPHA 0.4 #Default. Mixing 40% of new density matrix with the old one
+           NBROYDEN 8 #Default is 4. Number of previous steps stored for the actual mixing scheme
+         &END MIXING
+      &END SCF
+
+@IF $WITH_KP == yes
+      &KPOINTS
+         SCHEME MONKHORST-PACK 5 5 8
+         SYMMETRY .FALSE.
+      &END KPOINTS
+@ENDIF
+
+      &XC
+         &XC_FUNCTIONAL PBE
+           &PBE
+             PARAMETRIZATION REVPBE
+           &END PBE
+         &END XC_FUNCTIONAL
+      &END XC
+
+      &MGRID
+         REL_CUTOFF 80
+         CUTOFF 900
+      &END MGRID
+   &END DFT
+
+   &SUBSYS
+      &CELL
+      A    8.8901326513        0.0000000000        0.0000000000
+      B   -4.4739104629        7.6824375325        0.0000000000
+      C    0.0000001000        0.0000003943        5.2483716421
+         PERIODIC XYZ
+      &END CELL
+      &COORD
+ Na        -1.1859069865        2.0379623261        2.6241869010
+ Na         3.2449119045        5.6448521398        2.6241867646
+ Na         2.3578700048        0.0007892838        2.6241868726
+ Na        -2.6256486318        4.5068346666        0.0000001680
+ Na         1.8251693178        3.1750730554        0.0000001576
+ Na         5.2158593380       -0.0009231392        0.0000001673
+ Re         4.4364564557        2.5642868258        2.6242178317
+ Re        -0.0167453884        5.1242663051        2.6242177424
+ Re         0.0017170475        0.0030111053        0.0000094252
+  H         5.6222385887        2.4929720119        3.8444638123
+  H         3.9052360919        3.6232613245        3.8472931155
+  H         3.7846319842        1.5754147357        3.8473354516
+  H        -0.5432325121        4.0633761049        1.4010781033
+  H         3.7846337784        1.5754183851        1.4010976360
+  H         5.6222353787        2.4929729080        1.4039700228
+  H         3.9052378288        3.6232592016        1.4011411061
+  H        -0.6751167153        6.1130464337        3.8444723455
+  H         1.1657297010        5.1981428489        3.8472647704
+  H         1.6763457738        0.0076515368        0.0000010890
+  H         3.5835080375        6.2338251923        0.0000016665
+  H        -0.8370053879        1.4524719986        0.0000010868
+  H         7.6815358956        0.0008872303        1.1958253823
+  H         0.6038026414        1.0503904668        4.0506195218
+  H        -3.8649471720        6.6385181149        4.0525569576
+  H        -3.8649468269        6.6385180090        1.1958373681
+  H         0.6038029996        1.0503908521        1.1977742281
+  H         7.6815360048        0.0008870488        4.0525690768
+  H        -1.6822864070        5.0230528750        2.6242153250
+  H         0.7327983274        6.6152712210        2.6242163261
+  H         0.9014162231        3.7301543776        2.6242158401
+  H         2.7696859375        2.6561823231        2.6242158698
+  H         5.3476415856        3.9623777672        2.6242164032
+  H         5.1871788616        1.0740919399        2.6242154475
+  H        -0.5432348504        4.0633727533        3.8473548145
+  H        -0.6751143293        6.1130441536        1.4039612322
+  H         1.1657270304        5.1981432445        1.4011693676
+      &END COORD
+      &KIND Na
+         ELEMENT Na
+         BASIS_SET DZVP-MOLOPT-SR-GTH  # use an AE basis optimized for solids, any other (matching the pseudo) will work too, though
+         POTENTIAL GTH-PBE  # one could also use a pseudopotentials (non-AE)
+         ! while not strictly required, this should make the initial guess more accurate (Na+ Cl-)
+      &END KIND
+      &KIND Re
+         ELEMENT Re
+         BASIS_SET DZVP-MOLOPT-SR-GTH  # use an AE basis optimized for solids, any other (matching the pseudo) will work too, though
+         POTENTIAL GTH-PBE  # one could also use a pseudopotentials (non-AE)
+         ! while not strictly required, this should make the initial guess more accurate (Na+ Cl-)
+      &END KIND
+      &KIND H
+         ELEMENT H
+         BASIS_SET DZVP-MOLOPT-SR-GTH  # use an AE basis optimized for solids, any other (matching the pseudo) will work too, though
+         POTENTIAL GTH-PBE  # one could also use a pseudopotentials (non-AE)
+         ! while not strictly required, this should make the initial guess more accurate (Na+ Cl-)
+      &END KIND
+
+   &END SUBSYS
+
+   STRESS_TENSOR ANALYTICAL
+
+@IF $DO_CELLOPT == no
+   &PRINT
+      &STRESS_TENSOR
+         ADD_LAST NUMERIC
+         FILENAME stress_tensor
+      &END STRESS_TENSOR
+      &FORCES
+         ADD_LAST NUMERIC
+         FILENAME forces
+      &END FORCES
+   &END PRINT
+@ENDIF
+&END FORCE_EVAL
+
+@IF $DO_CELLOPT == yes
+&MOTION
+   &CELL_OPT
+      KEEP_ANGLES .TRUE.
+      MAX_FORCE 1.0E-10
+   &END CELL_OPT
+&END MOTION
+@ENDIF

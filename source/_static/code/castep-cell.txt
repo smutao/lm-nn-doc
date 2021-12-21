@@ -1,0 +1,32 @@
+%BLOCK lattice_cart
+Ang
+2.5333173     0.0000000     0.0000000  
+1.2666587     2.1939171     0.0000000  
+1.2666587     0.7313057     2.0684936  
+%ENDBLOCK lattice_cart
+
+%BLOCK positions_frac
+C                0.749996   0.749996   0.750013 
+C                0.500004   0.500004   0.499987 
+%ENDBLOCK positions_frac
+!
+! Choose which pseudopotentials to use
+! Either specify external files, or omit to generate a pseudopotential
+!
+%BLOCK species_pot
+C NCP
+%ENDBLOCK species_pot
+!
+! Analyse structure to determine symmetry
+!
+!symmetry_generate
+!
+! Specify M-P grid dimensions for electron wavevectors (K-points)
+!
+kpoint_mp_grid 5 5 5
+!
+! Offset the grid in the xy plane to include (0,0,0)
+
+%block PHONON_KPOINT_LIST  
+    0.0   0.0   0.0    1.0        ! Wavevector of phonon(s) to compute ( qx qy qz, weight)  
+%endblock PHONON_KPOINT_LIST

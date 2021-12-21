@@ -1,0 +1,20 @@
+ &CONTROL
+    pseudo_dir = '.'
+    calculation = 'scf'
+    tprnfor = .true.
+    tstress = .true.
+ /
+
+ &SYSTEM
+    ibrav = 0
+
+    nat = 2
+    ntyp = 1
+    ecutwfc = 40.0
+    ecutrho = 400.0
+ /
+
+ &ELECTRONS
+scf_must_converge = .true.
+ /
+

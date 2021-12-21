@@ -1,0 +1,68 @@
+.. toctree::
+   :hidden:
+
+
+.. _setup-pymol:
+
+========================
+ Install PyMOL
+========================
+
+
+Binary from official website
+============================
+
+Download PyMOL package from the `official website <https://pymol.org/2/>`_ maintained by Schrödinger. This incentive binary version has bundled Python environment and necessary packages.   
+
+We recommend using this version of PyMOL due to the easy installation.
+
+
+Pre-built open-source version
+=============================
+
+Mac OS users
+------------
+
+Latest PyMOL is available in the third-party package managers like Homebrew and MacPorts. See https://pymolwiki.org/index.php/MAC_Install.
+
+
+
+Linux users
+-----------
+
+Latest PyMOL can be installed via the native package manager (e.g. yum, pacman) of the Linux distribution. See https://pymolwiki.org/index.php/Linux_Install.
+
+For Debian-based distros (e.g. Ubuntu, Pos OS), the PyMOL in the software repository is not the latest. Therefore, it is not recommended to use PyMOL from this source.
+
+PyMOL from Snap and Flatpak package managers has not been tested and it might have issue when installing LModeA-nano as a plugin.
+
+Windows users
+-------------
+
+Christoph Gohlke from UC Irvine provides the pre-built open-source version of PyMOL for Windows on `his website <https://www.lfd.uci.edu/~gohlke/pythonlibs/#pymol-open-source>`_. 
+
+Instructions on how to install this pre-compiled PyMOL can be found at
+
+* https://pymolwiki.org/index.php/Windows_Install#Open-Source_PyMOL 
+
+* https://omicx.cc/posts/2021-04-20-install-pymol-windows/
+
+* https://www.youtube.com/watch?v=B5GbuAND3IQ
+
+
+
+
+
+
+Compile open-source version
+===========================
+
+For Linux users who are familiar with compiling programs, it is possible to build the open-source PyMOL from  `source code <https://github.com/schrodinger/pymol-open-source>`_ on GitHub. Detailed instructions can be found at https://pymolwiki.org/index.php/Linux_Install#Install_from_source.
+
+.. note::
+   To make LModeA-nano properly work, the Python environment which compiles the PyMOL source code needs the ``numpy`` package installed.
+
+
+
+
+
