@@ -15,6 +15,8 @@ Install LModeA-nano
 
 The latest code of ``LModeA-nano``  can be obtained at GitHub repo https://github.com/smutao/LModeA-nano. By clicking **Code** |rarr| **Download ZIP**, the source package LModeA-nano-main.zip  is downloaded to your disk and this zip file needs to be uncompressed as a folder before the next step.
 
+[中国大陆的用户可以访问 GitLab 上的镜像repo https://gitlab.com/smutao/LModeA-nano，点击 Download 即可下载源代码。]
+
 After launching PyMOL program on your computer, navigate to the menu bar **Plugin** |rarr| **Plugin Manager**. In the pop-up dialog window **Plugin Manager**, navigate to   **Install New Plugin** tab, click **Choose file...** button. Then find the LModeA-nano-main folder and choose ``__init__.py``,  click **OK** twice in the pop-up windows. ``LModeA-nano`` is now successfully installed and you should be able to see **LModeA-nano** in the drop-down list of **Plugin** menu of PyMOL.
 
 
