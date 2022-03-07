@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'LModeA-nano'
-copyright = '2021, YT'
+copyright = '2022'
 author = 'YT'
 
 # The full version, including alpha/beta/rc tags
