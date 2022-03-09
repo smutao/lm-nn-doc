@@ -61,7 +61,7 @@ Next, tutorials will be given on how to use LModeA-nano with the input data gene
 
 #. E. B. Wilson, J. C. Decius, P. C. Cross, Molecular Vibrations: The Theory of Infrared and Raman Vibrational Spectra, Dover Publications: Mineola, NY (2012)
 
-#. Y. Tao, W. Zou, D Sethio, et al., `In Situ Measure of Intrinsic Bond Strength in Crystalline Structures: Local Vibrational Mode Theory for Periodic Systems  <https://pubs.acs.org/doi/10.1021/acs.jctc.8b01279>`_, J. Chem. Theory Comput. 15, 1761 (2019) `📎  <https://sites.smu.edu/dedman/catco/publications/pdf/404.pdf>`_
+#. Y. Tao, W. Zou, D. Sethio, et al., `In Situ Measure of Intrinsic Bond Strength in Crystalline Structures: Local Vibrational Mode Theory for Periodic Systems  <https://pubs.acs.org/doi/10.1021/acs.jctc.8b01279>`_, J. Chem. Theory Comput. 15, 1761 (2019) `📎  <https://sites.smu.edu/dedman/catco/publications/pdf/404.pdf>`_
 
 #. E. Kraka, W. Zou, Y. Tao, `Decoding Chemical Information from Vibrational Spectroscopy Data: Local Vibrational Mode Theory  <https://doi.org/10.1002/wcms.1480>`_, WIREs: Comput. Mol. Sci. 10, e1480 (2020) `📎  <https://sites.smu.edu/dedman/catco/publications/pdf/424.pdf>`_
 
