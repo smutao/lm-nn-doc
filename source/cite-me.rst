@@ -7,9 +7,13 @@
 Citing LModeA-nano
 ========================
 
-If you find LModeA-nano useful in your research, please support this project by citing the following paper in your publications/reports.
+If you find LModeA-nano useful in your research, please support this project by citing the following paper in your publications/reports:
 
 Y. Tao, W. Zou, S. Nanayakkara, et al., `LModeA-nano: A PyMOL Plugin for Calculating Bond Strength in Solids, Surfaces, and Molecules via Local Vibrational Mode Analysis  <https://pubs.acs.org/doi/10.1021/acs.jctc.1c01269>`_, J. Chem. Theory Comput. 18, 1821 (2022)
+
+.. literalinclude:: _static/code/ref1.bib
+
+
 
 Additional references include:
 
