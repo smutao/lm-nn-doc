@@ -37,7 +37,7 @@ In other words, it is preferred to calculate a series of structures with the sam
 
 
 
-**Q**. I got some force constant value by selecting the H...H bond in a water molecule, is this result correct? 
+**Q**: I got some force constant value by selecting the H...H bond in a water molecule, is this result correct? 
 
 One should always be aware of what he/she is calculating in computational chemistry.  The local stretching force constant should ONLY be calculated for two atoms between which there exists a chemical bond or non-covalent interaction. One should NEVER select two random atoms and interpret corresponding force constant as bond strength. 
 
