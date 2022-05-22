@@ -63,6 +63,12 @@ In other words, it is preferred to calculate a series of structures with the sam
 One should always be aware of what he/she is calculating in computational chemistry.  The local stretching force constant should ONLY be calculated for two atoms between which there exists a chemical bond or non-covalent interaction. One should NEVER select two random atoms and interpret corresponding force constant as bond strength. 
 
 
+**Q**: Can I apply the local vibrational mode theory to measure the bond strength between two metal atoms?
+
+If these two metal atoms exist in elemental metals (metallic solids consisting of only one element), it is not possible to apply the local vibrational mode theory because the phonon frequencies of the primitive cell at Gamma point are all zeros. 
+
+For other systems like metal clusters and metal oxides, one may apply the local vibrational mode theory to measure the bond strength between two metal atoms. 
+
 
 
 **Q**:  As only the primitive cell structure is required for local mode analysis in solids, does the k-point sampling matter? 
