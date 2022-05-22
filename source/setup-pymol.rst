@@ -32,7 +32,7 @@ Linux users
 
 Latest PyMOL can be installed via the native package manager (e.g. yum, pacman) of the Linux distribution. See https://pymolwiki.org/index.php/Linux_Install.
 
-For Debian-based distros (e.g. Ubuntu, Pos OS), the PyMOL in the software repository is not the latest. Therefore, it is not recommended to use PyMOL from this source.
+For Ubuntu-based distros (e.g. Ubuntu, Pos OS), PyMOL 2.5+ is available in the software repository for 22.04 LTS and later versions. Therefore, it can be easily installed via "sudo apt install python3-pymol". 
 
 PyMOL from Snap and Flatpak package managers has not been tested and it might have issue when installing LModeA-nano as a plugin.
 
