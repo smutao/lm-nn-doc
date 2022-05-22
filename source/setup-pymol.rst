@@ -50,7 +50,7 @@ Instructions on how to install this pre-compiled PyMOL can be found at
 * https://www.youtube.com/watch?v=B5GbuAND3IQ
 
 
-
+For LModeA-nano to function properly, the PyQt5 package should be installed. One may try "pip install pyqt5" if LModeA-nano has problem while launching. 
 
 
 
