@@ -25,6 +25,7 @@ Mac OS users
 
 Latest PyMOL is available in the third-party package managers like Homebrew and MacPorts. See https://pymolwiki.org/index.php/MAC_Install.
 
+For Apple Silicon M1/M2 users, Homebrew is a good choice to install PyMOL via "brew install pymol".
 
 
 Linux users
