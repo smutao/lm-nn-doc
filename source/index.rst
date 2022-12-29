@@ -20,9 +20,9 @@ can quantify the intrinsic strength of chemical bonds in terms of local stretchi
  Recent news and publications
 --------------------------------------------
 
+[2022-09-26] LModeA-nano was employed by Prof. Peter W. Roesky's research group to investigate the existence of Si-Si bonding within silylene compounds in their work titled **Stimuli Responsive Silylene: Electromerism Induced Reversible Switching Between Mono- and Bis-Silylene** published on *Angew. Chem. Int. Ed.*
 
-
-
+[2021-12-20] Our work titled **Capturing Individual Hydrogen Bond Strengths in Ices via Periodic Local Vibrational Mode Theory: Beyond the Lattice Energy Picture** was published on *J. Chem. Theory Comput.*
 
 
 
