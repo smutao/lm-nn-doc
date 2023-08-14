@@ -20,6 +20,20 @@ We recommend using this version of PyMOL due to the easy installation.
 Pre-built open-source version
 =============================
 
+Conda (miniconda/anaconda)[Mac/Linux/Win] users
+------------
+
+Open-source pymol has released package on  `conda <https://anaconda.org/conda-forge/pymol-open-source>`_.
+
+Please run in the terminal ::
+
+  $ conda create -n pymol-opensource 
+  $ conda activate pymol-opensource 
+  $ conda install -c conda-forge pymol-open-source
+  $ conda install -c anaconda numpy
+  $ pymol
+
+
 Mac OS users
 ------------
 
