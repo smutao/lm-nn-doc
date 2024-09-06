@@ -8,6 +8,22 @@
 Application of LModeA-nano
 ==========================
 
+
+**Novel Pd Compound Characterization**
+
+ .. figure:: _static/application-abstract/an-iconic-2022-12-22-paper.png
+   :width: 700
+   :align: center
+ .. figure:: _static/application-abstract/an-iconic-2022-12-22.png
+   :width: 350
+   :align: center
+
+| J. Evers, W. Beck, G. Oehlinger, P. Mayer, M. B. R. Völkl, T. M. Klapötke, A. Zimina, S. Wolf, R. Köppe, `PdCl(NO) – An Iconic Compound with Corrugated Pd₄Cl₄ Octagons Built Up by Pd₂Cl₂(NO)₂ Moieties <https://doi.org/10.1002/zaac.202200337>`_, Z. Anorg. Allg. Chem. 649, e202200337, 2023
+
+
+|
+|
+
 **Bonding in Silylene**
 
  .. figure:: _static/application-abstract/2022-ANIE-Roesky.png
