@@ -113,7 +113,7 @@ can quantify the intrinsic strength of chemical bonds in terms of local stretchi
  Acknowledgement & Funding
 --------------------------------------------
 
-The LModeA-nano project is sponsored by National Science Fundation. 
+The LModeA-nano project is sponsored by National Science Foundation (CHE 2102461). 
 
 
 .. Indices and tables
