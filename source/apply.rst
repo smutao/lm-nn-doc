@@ -73,7 +73,7 @@ Application of LModeA-nano
 |
 
 
-**Mechanic Brittleness Explained by Chemical Bond Strength**
+**Mechanical Brittleness Explained by Chemical Bond Strength**
 
  .. figure:: _static/application-abstract/origin-of-2024-01-10-paper.png
    :width: 700
