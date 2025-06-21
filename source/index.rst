@@ -20,6 +20,16 @@ can quantify the intrinsic strength of chemical bonds in terms of local stretchi
  Recent news and publications
 --------------------------------------------
 
+[2025-04-16] LModeA-nano was employed by Prof. Artur Mardyukov and Prof. Peter R. Schreiner's research groups to better understand N₆'s structure and gauge where its bonds are likely to break, thereby exploring its intrinsic stability in their work titled **Preparation of A Neutral Nitrogen Allotrope Hexanitrogen C2h-N₆** published on *Nature*. 
+
+
+[2025-02-04] LModeA-nano was utilized by Prof. Zu-Wei Yin, Prof. Luyi Yang and Prof. Feng Pan's research groups to determine the thermal decomposition path of the CMC binder by identifying bonds with lower strength that are more likely to break first during thermal treatment in their work titled **Tailoring Sodium Carboxymethylcellulose Binders for High-Voltage LiCoO₂ via Thermal Pulse Sintering** published on *Angew. Chem. Int. Ed.*
+
+
+[2024-12-04] LModeA-nano was utilized by Prof. Zsolt Kelemen's research group to quantify the plasticity of the metal-metal bonds in their work titled **Deciphering the Direct Heterometallic Interaction in κ³-bis(donor)ferrocenyl-transition-metal Complexes** published on *Dalton Trans.*
+
+
+
 [2024-08-05] LModeA-nano was utilized by Prof. Jiong Yang and Prof. Lili Xi's researh group to explain the defect formation energies in half-Heusler (HH) compounds ABX with A-B chemical bond strength in their work titled **The A-Ni Chemical Bond in AᴵᴵᴵNiSb (Aᴵᴵᴵ=Sc, Y, Er) half-Heusler Materials Triggers the Formation of Anomalous Vacancy Defects** published on *Mater. Today Phys.* 
 
 
