@@ -20,6 +20,8 @@ can quantify the intrinsic strength of chemical bonds in terms of local stretchi
  Recent news and publications
 --------------------------------------------
 
+[2025-08-28] LModeA-nano was used by Prof. Haoran Wang's research group to determine the force constants of the C=C double bond in two different transition states and to help conclude that the bond-stretching energy was not the primary reason for a high energy barrier in one of the reaction pathways in their work titled **Inhibition Mechanism of Quercetin on Coal Low-Temperature Oxidation: Molecular Flexibility and Double Bond-Mediated Free Radical Scavenging** published on *Fuel*. 
+
 [2025-07-30] LModeA-nano was employed by Prof. Xuaifei Sun and Prof. Peter W. Roesky's research groups to determine local stretching force constants to assess the bond strength of the Ag-Ag, Au-Au, and Ag-Au bonds in the synthesized bimetallic complexes confirming that these interactions were weak when compared to strong single metal-metal bonds in diatomic molecules in their work titled **On-demand Switching from Mono-Silylene to Bis-Silylene to Access mono-, di- and Mixed Coinage Metal Complexes** published on *Chem. Sci.*
 
 [2025-07-25] LModeA-nano was utilized by Prof. Boon K. Teo and Prof. Zhigang Wang's research groups to assess the effect of an embedded hydrogen atom on the strength of Au-Au bonds in an Au₂₀ cluster, finding that the local vibrational mode force constants for these bonds were uniformly greater in H@Au₂₀ compared to the undoped Au₂₀ in their work titled **Parity-­Forbidden Superatomic Molecular Orbital Interaction and Aurophilicity Induced H─Au Bonding in H@Au₂₀** published on *Sci. Adv.* 
