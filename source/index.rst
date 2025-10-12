@@ -20,6 +20,9 @@ can quantify the intrinsic strength of chemical bonds in terms of local stretchi
  Recent news and publications
 --------------------------------------------
 
+[2025-09-18] LModeA-nano was used by Prof. Yuanyuan Li and Prof. Dingfeng Yang's research groups to quantify the local vibrational frequencies and bond strengths of Nb–O and B–O bonds demonstrating that the relatively softer and more anharmonic Nb–O bonds serve as the main source of negative Grüneisen contributions, while the much stiffer B–O bonds provide a rigid structural framework, and the compensation between these two contrasting vibrational behaviors ultimately leads to the low thermal expansion observed in NbBO₄ in their work titled **Low Thermal Expansion in Niobate Borate NbBO₄ Enabled by Compensated Grüneisen Parameters of NbO₈ Polyhedra**  published in *Inorg. Chem.*
+
+
 [2025-08-28] LModeA-nano was used by Prof. Haoran Wang's research group to determine the force constants of the C=C double bond in two different transition states and to help conclude that the bond-stretching energy was not the primary reason for a high energy barrier in one of the reaction pathways in their work titled **Inhibition Mechanism of Quercetin on Coal Low-Temperature Oxidation: Molecular Flexibility and Double Bond-Mediated Free Radical Scavenging** published on *Fuel*. 
 
 [2025-07-30] LModeA-nano was employed by Prof. Xuaifei Sun and Prof. Peter W. Roesky's research groups to determine local stretching force constants to assess the bond strength of the Ag-Ag, Au-Au, and Ag-Au bonds in the synthesized bimetallic complexes confirming that these interactions were weak when compared to strong single metal-metal bonds in diatomic molecules in their work titled **On-demand Switching from Mono-Silylene to Bis-Silylene to Access mono-, di- and Mixed Coinage Metal Complexes** published on *Chem. Sci.*
