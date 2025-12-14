@@ -9,6 +9,27 @@ Application of LModeA-nano
 ==========================
 
 
+**Tetrel Bonding and C-H Stretching**
+
+
+ .. figure:: _static/application-abstract/tetral-2025-paper.png
+   :width: 600
+   :align: center
+ .. figure:: _static/application-abstract/tetral-2025-1.png
+   :width: 600
+   :align: center
+ .. figure:: _static/application-abstract/tetral-2025-2.png
+   :width: 300
+   :align: center
+
+
+| N. Lu, G. Gurumallappa, P. Liu, K. Chan, Y. Huang, Y. Lin, Y. Hsieh, P. Zeng, Y. Gowda, M. Tsai, E. Tessema, H. Chang, J. S. Francisco, `Neutron Diffraction and Spectroscopic Studies of Intramolecular Tetrel Bonds in Three Fluorinated Zinc Complexes: Significant Redshift in the sp3 C−H Stretch Confirmed by Experiments and Theory <https://doi.org/10.1021/jacs.5c15040>`_, J. Am. Chem. Soc. 147, 45270 (2025)
+
+|
+|
+
+
+
 **Defect Formation Energy Explained by Chemical Bond Strength**
 
 
