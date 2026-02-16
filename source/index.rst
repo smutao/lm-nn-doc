@@ -20,6 +20,9 @@ can quantify the intrinsic strength of chemical bonds in terms of local stretchi
  Recent news and publications
 --------------------------------------------
 
+
+[2026-02-06] LModeA-nano was employed by Prof. Yang Wang’s research group to extract bond force constants through local vibrational mode analysis of Hessian matrices derived from fixed-bond-length first-principles calculations, enabling quantitative evaluation of temperature-induced bond stiffness variations in their work titled **Extending the Elastic Modulus Prediction Model for Covalently Bonded Materials towards the Application in Different Temperatures** published in *Model. Simul. Mater. Sci. Eng.*  ￼
+
 [2026-01-23] LModeA-nano was employed by Prof. Yuanyuan Li and Prof. Dingfeng Yang’s research groups to perform local vibrational mode analysis and quantify bond stiffness variations underlying thermal expansion behavior in their work titled **Local Bond Engineering in LiMBO₄ (M = Si, Ge): Synergistic Negative Grüneisen Parameter and Bond Stiffening for Reduced Thermal Expansion** published in *Chem. Mater.* 
 
 [2025-12-01] LModeA-nano was used by Prof. Adam A. L. Michalchuk's research group to obtain local mode force constants through an automated analysis of dynamical matrices derived from Γ-point phonon calculations, which served as a benchmark to investigate how computational parameters—specifically the charge density grid—affect the description of chemical bonding strengths in organic molecular crystals in their work titled **Converging ab initio Phonon Simulations for Organic Molecular Crystals: the Effect of Charge Density Grids and Phonon Dispersion Sampling** published in *CrystEngComm*.
