@@ -9,6 +9,26 @@ Application of LModeA-nano
 ==========================
 
 
+
+
+**N-N bonding in N₆**
+
+
+ .. figure:: _static/application-abstract/nature-2025.png
+   :width: 600
+   :align: center
+
+
+
+| W. Qian, A. Mardyukov, P. R. Schreiner, `Preparation of A Neutral Nitrogen Allotrope Hexanitrogen C2h-N6 <https://doi.org/10.1038/s41586-025-09032-9>`_, Nature 642, 356–360 (2025).
+
+|
+|
+
+
+
+
+
 **Tetrel Bonding and C-H Stretching**
 
 
