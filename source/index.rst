@@ -20,6 +20,7 @@ Since the publication of LModeA-nano in 2022, it has been trusted and applied by
  Recent news and publications
 --------------------------------------------
 
+[2026-04-08] LModeA-nano was employed by Prof. Mark R. Pederson and Prof. Koblar A. Jackson’s research groups to calculate local vibrational frequencies of C–F bonds in selected PFOA isomers and benchmark two atom-specific vibrational analysis methods, confirming that the Einstein oscillator, atom-averaged normal mode, and local mode approaches consistently identify the same bonds as the most strongly activated upon molecular reduction in their work titled **Atom-Specific Vibrational Analysis Reveals Labile Bonds in Linear and Branched PFOA Molecules** published in *J. Chem. Phys.*
 
 [2026-02-06] LModeA-nano was employed by Prof. Yang Wang’s research group to extract bond force constants through local vibrational mode analysis of Hessian matrices derived from fixed-bond-length first-principles calculations, enabling quantitative evaluation of temperature-induced bond stiffness variations in their work titled **Extending the Elastic Modulus Prediction Model for Covalently Bonded Materials towards the Application in Different Temperatures** published in *Model. Simul. Mater. Sci. Eng.*
 
